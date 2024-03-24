@@ -10,7 +10,8 @@ const WorkingProcess=({className = ''})=> {
   {/* Work Process Area Start */}
     <section id="work-process" className={`py100 ${className}`}>
         <div className="container">
-           <SectionHeading title="Our Working Process" heading="Data Science Solutions For Startup"/>
+           <SectionHeading title="Our Working Process" heading="Design Solutions For Business 
+"/>
             <div className="row">
              {WorkProcessData.map((data, index) =>( <WorkingProcessCard data={data} key={index} />))}   
             </div>

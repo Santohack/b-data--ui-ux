@@ -23,11 +23,13 @@ const Banner = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
               <div className="home-one-banner-content">
-                <h1>UX Research & UI/UX Designing</h1>
-                <h2>Innovative Solutions</h2>
+                <h1>UX Research & Design</h1>
+                <h2>Under Innovative Solutions </h2>
                 <p>
-                  Real-time data management technologies, global data market
-                  places, and award-winning service make our solutions.
+                  Through cutting-edge technologies and empathetic design
+                  thinking, we craft solutions that not only meet user needs but
+                  also exceed expectations, revolutionizing the digital
+                  landscape.
                 </p>
                 <ModalVideo
                   channel="youtube"
@@ -38,16 +40,16 @@ const Banner = () => {
                   onClose={() => setOpen(false)}
                 />
                 <div className="banner-one-btn pt30">
-                  <Link to="/#" className="btn btn-theme">
+                  <Link to="/Contact" className="btn btn-theme">
                     Get Started
                   </Link>
-                  {/* <a
+                  <a
                     href="#!"
                     className="banner-video video-link"
                     onClick={() => setOpen(true)}
                   >
                     <AiOutlinePlayCircle /> Watch Video
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </div>

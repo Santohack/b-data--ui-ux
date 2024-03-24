@@ -17,13 +17,14 @@
                     <div className="left-side-title">
                         <h3>About Company</h3>
                         <h2 className="pt10">
-                            We Provide Real Time Data Solutions, Analysis, Analytics And Prediction
+                        We Provide Real Time Data Solutions, Case Study , Analytics And Designs
+
                         </h2>
                     </div>
                     <div className="about-details pt10">
                         <p>
-                            Dolor sit amet consectetur elit sed eiusmod tempor incidi dunt labore dolore magna aliqua
-                            enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut.
+                        From in-depth user research and intuitive interface design to rigorous usability testing and accessibility audits, our unique selling proposition lies in our ability to deliver holistic solutions that prioritize both user satisfaction and business objectives.
+
                         </p>
                         <ul className="pt20">
                             <li className="wow zoomIn" data-wow-duration="2.0s">
@@ -39,7 +40,7 @@
                                 <img alt="" src={check}  />24/7 Support Centers
                             </li>
                         </ul>
-                        <Link to="/#" className="btn btn-theme mt30">How It Work</Link>
+                        {/* <Link to="/#" className="btn btn-theme mt30">How It Work</Link> */}
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 col-12">

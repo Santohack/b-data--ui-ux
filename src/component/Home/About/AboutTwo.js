@@ -26,8 +26,8 @@ const AboutTwo=({className=""})=> {
                                 <div className="media-body">
                                     <h3 className="mt-0">Save Your Time</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore.
+                                    Our UX design service streamlines processes and enhances efficiency, ultimately saving you valuable time while delivering exceptional user experiences.
+
                                     </p>
                                 </div>
                             </div>
@@ -36,8 +36,8 @@ const AboutTwo=({className=""})=> {
                                 <div className="media-body ">
                                     <h3 className="mt-0 ">Manage Business Easily</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore.
+                                    Our UX design service simplifies complex business operations, empowering you to manage your business effortlessly and efficiently through intuitive digital interfaces.
+
                                     </p>
                                 </div>
                             </div>
@@ -46,8 +46,7 @@ const AboutTwo=({className=""})=> {
                                 <div className="media-body">
                                     <h3 className="mt-0">Trusted Partner</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore.
+                                    As a trusted partner, our UX design service collaborates closely with clients to understand their unique needs and deliver tailored solutions that foster trust and confidence in their digital products.
                                     </p>
                                 </div>
                             </div>

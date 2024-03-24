@@ -27,8 +27,8 @@ const Our_Features = () => {
 								<img src={small} alt="speed" />
 								<div className="media-body pl30">
 									<h3><a href="#!">Save Your Time</a></h3>
-									<p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut labore
-										et dolore.</p>
+									<p>Our UX design service streamlines processes and enhances efficiency, ultimately saving you valuable time while delivering exceptional user experiences.
+</p>
 								</div>
 							</div>
 						</div>
@@ -39,8 +39,8 @@ const Our_Features = () => {
 								<img src={small2} alt="speed" />
 								<div className="media-body pl30">
 									<h3><a href="#!">Manage Business</a></h3>
-									<p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut labore
-										et dolore.</p>
+									<p>Our UX design service simplifies complex business operations, empowering you to manage your business effortlessly and efficiently through intuitive digital interfaces.
+</p>
 								</div>
 							</div>
 						</div>
@@ -51,8 +51,7 @@ const Our_Features = () => {
 								<img src={small3} alt="speed" />
 								<div className="media-body pl30">
 									<h3><a href="#!">Trusted Partner</a></h3>
-									<p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut labore
-										et dolore.</p>
+									<p>As a trusted partner, our UX design service collaborates closely with clients to understand their unique needs and deliver tailored solutions that foster trust and confidence in their digital products.</p>
 								</div>
 							</div>
 						</div>

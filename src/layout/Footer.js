@@ -11,18 +11,18 @@ const FooterItems=[
         title:"Useful Links",
         links: [
           { linkTitle: "Home", link: "/" },
-          { linkTitle: "Faqs", link: "/faqs" },
-          { linkTitle: "Shop", link: "/shop" },
-          { linkTitle: "News", link: "/blog" },
+          { linkTitle: "Faqs", link: "/" },
+          { linkTitle: "Shop", link: "/" },
+          { linkTitle: "News", link: "/" },
         ],
     },
     {
         title:"Services",
         links: [
-          { linkTitle: "About", link: "/about" },
-          { linkTitle: "Service", link: "/services" },
-          { linkTitle: "Contact Us", link: "/contact" },
-          { linkTitle: "Projects", link: "/projects" },
+          { linkTitle: "About", link: "/" },
+          { linkTitle: "Service", link: "/" },
+          { linkTitle: "Contact Us", link: "/" },
+          { linkTitle: "Projects", link: "/" },
         ],
     }
 ]
@@ -37,12 +37,10 @@ const Footer=()=> {
                     <div className="footer-about-area">
                         <Link to="/"><img alt="" src={logo}  /></Link>
                         <p className="pt30">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut.
+                        Ethics play a fundamental role in guiding the practices of our UX design company, ensuring integrity and accountability in all aspects of our work. We adhere to principles of transparency, respect for user privacy, and inclusivity, prioritizing the ethical treatment of user data and fostering trust with our clients and their audiences
+
                         </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        </p>
+                       
                     </div>
                 </div>
                 {FooterItems.map((item, key)=>(
@@ -69,13 +67,18 @@ const Footer=()=> {
                         <div className="footer-contact-area footer-list pt40">
                            <ul>
                                <li>
-                                   <i><ImLocation/></i> 1101, Your street adress, New york, State, Country.
+                                   <i><ImLocation/></i> Raycast Systems
+First Floor , Thapasya Building 
+Infopark, kakkand
+Cochin- Kerala
+India 
+
                                </li>
                                <li>
-                                   <i><FiPhoneOutgoing/></i><Link to="/">+012 -3 456 789</Link>
+                                   <i><FiPhoneOutgoing/></i><Link to="/">+91 9074659932</Link>
                                </li>
                                <li>
-                                   <i><SiMinutemailer/></i><Link to="/">Info@gmail.com</Link>
+                                   <i><SiMinutemailer/></i><Link to="/">info@raycasts.com</Link>
                                </li>
                            </ul>
                        </div>  

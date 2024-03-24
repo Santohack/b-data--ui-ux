@@ -1,96 +1,81 @@
 export const PricingData=[
 {
- title:"Standard Package",
- price:"70",
+ title:"Basic Plan",
+ price:"1k",
  data:[
   {
-   list:"Unlimited Campaigns"
+   list:"User research and analysis   "
   },
   {
-   list:"Basic Donor Data"
+   list:"Wireframing and prototyping   "
   },
   {
 
-   list:"Team Fundraising"
+   list:"Interface design (up to 10 screens/pages)   "
   },
   {
-   list:"Weekly Campaigns"
+   list:"Usability testing (3 round)   "
   },
   {
-   list:"Data Analysis"
+   list:"Suitable for: Small businesses or startups looking to enhance their digital presence with essential UX design services on a budget.   "
   },
-  {
-   list:"Data Analytics"
-  },
-  {
-   list:"Daily Report Delivery"
-  },
-  {
-   list:"Business Prediction"
-  },
+  
  ],
 btn:"BUY NOW"
 },
 {
- title:"Standard Package",
- price:"40",
+ title:"Standard Plan",
+ price:"2.5k",
  data:[
   {
-   list:"Unlimited Campaigns"
+   list:"Comprehensive user research and analysis   "
   },
   {
-   list:"Basic Donor Data"
+   list:"Detailed wireframing and prototyping   "
   },
   {
-   list:"Team Fundraising"
+   list:"Interface design (up to 20 screens/pages)   "
   },
   {
-   list:"Weekly Campaigns"
+   list:"Usability testing (6 rounds)   "
   },
   {
-   list:"Data Analysis"
+   list:"Responsive design for multiple devices   "
   },
   {
-   list:"Data Analytics"
+   list:"Suitable for: Growing businesses requiring more extensive UX design support and optimization for multiple platforms.   "
   },
-  {
-   list:"Daily Report Delivery"
-  },
-  {
-   list:"Business Prediction"
-  },
+
  ],
 btn:"BUY NOW"
 },
 {
- title:"Standard Package",
- price:"20",
+ title:"Premium Plan ",
+ price:"5K",
  data:[
   {
-   list:"Unlimited Campaigns"
+   list:"In-depth user research and analysis, including persona development and user journey mapping   "
   },
   {
 
-   list:"Basic Donor Data"
+   list:"High-fidelity wireframing and interactive prototyping   "
   },
   {
-   list:"Team Fundraising"
+   list:"Custom interface design (up to 40 screens/pages)   "
   },
   {
-   list:"Weekly Campaigns"
+   list:"Usability testing (9 rounds) with detailed reports and recommendations   "
   },
   {
-   list:"Data Analysis"
+   list:"Accessibility audit and implementation of WCAG standards"
   },
   {
-   list:"Data Analytics"
+   list:"Ongoing support and consultation   "
   },
   {
-   list:"Daily Report Delivery"
+   list:"Suitable for: Established businesses or enterprises seeking top-tier UX design services with a focus on innovation, accessibility, and continuous improvement"
   },
-  {
-   list:"Business Prediction"
-  },
+ 
  ],
 btn:"BUY NOW"
 }

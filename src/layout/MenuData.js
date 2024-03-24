@@ -58,11 +58,11 @@ export const MenuData = [
         href: "#!",
         has_children: true,
         children: [
-            {
-                name: "Projects",
-                href: "/projects",
-                has_children: false,
-            },
+            // {
+            //     name: "Projects",
+            //     href: "/projects",
+            //     has_children: false,
+            // },
             {
                 name: "Project Details",
                 href: "/project_details",

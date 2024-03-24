@@ -8,12 +8,12 @@ const Blog=({className=""})=> {
  return (
   <div>
     <section id="blog-area" className={`py100 ${className}`}>
-        <div className="container">
+        {/* <div className="container">
             <SectionHeading title="News And Updates" heading="Latest Thinking of Data Science And Our Company News"/>
             <div className="row">
                 {BlogData.map((data, index)=>(<BlogCard data={data} key={index} />))}
             </div>
-        </div>
+        </div> */}
     </section>
   </div>
  )

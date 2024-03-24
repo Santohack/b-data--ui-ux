@@ -10,7 +10,7 @@ const Pricing =({className = ''})=> {
   <>
       <section className={`pricing-section ${className}`} >
         <div className="container">
-            <SectionHeading title="Our Pricing Plan" heading={"Data Solutions For Startup"}/>
+            <SectionHeading title="Our Pricing Plan" heading={"Design  Solutions For Business"}/>
             <div className="row">
              <div className="col-lg-12 col-sm-12 col-12">
              <Tab.Container id="left-tabs-example" defaultActiveKey="monthly">
