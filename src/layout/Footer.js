@@ -10,10 +10,10 @@ const FooterItems=[
     {
         title:"Useful Links",
         links: [
-          { linkTitle: "Home", link: "/" },
-          { linkTitle: "Faqs", link: "/" },
-          { linkTitle: "Shop", link: "/" },
-          { linkTitle: "News", link: "/" },
+          { linkTitle: "Home",  },
+          { linkTitle: "Faqs",  },
+        //   { linkTitle: "Shop", link: "/#11" },
+          { linkTitle: "News", link: "/#" },
         ],
     },
     {
@@ -52,7 +52,7 @@ const Footer=()=> {
                                <div className="footer-list pt40">
                                    <ul>
                                        {item.links.map((flinks, key)=>(
-                                           <li key={key}><Link to={flinks.link}>{flinks.linkTitle}</Link></li>
+                                           <li key={key}><p >{flinks.linkTitle}</p></li>
                                        ))}
                                    </ul>
                                </div>

@@ -21,11 +21,11 @@ export const PricingData=[
   },
   
  ],
-btn:"BUY NOW"
+// btn:"BUY NOW"
 },
 {
  title:"Standard Plan",
- price:"2.5k",
+ price:"3k",
  data:[
   {
    list:"Comprehensive user research and analysis   "
@@ -47,7 +47,7 @@ btn:"BUY NOW"
   },
 
  ],
-btn:"BUY NOW"
+// btn:"BUY NOW"
 },
 {
  title:"Premium Plan ",
@@ -77,6 +77,6 @@ btn:"BUY NOW"
   },
  
  ],
-btn:"BUY NOW"
+// btn:"BUY NOW"
 }
 ]

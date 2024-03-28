@@ -35,37 +35,37 @@ const Project=(props)=> {
                         <div className="work-item">
                             <img alt="" src={img1}  />
                             <div className="overlay-arae">
-                                <Link to="/project_details"> <i><BsArrowRight/></i></Link>
+                                {/* <Link to="/project_details"> <i><BsArrowRight/></i></Link> */}
                             </div>
                         </div>
                         <div className="work-item">
                             <img alt="" src={img2}  />
                             <div className="overlay-arae">
-                            <Link to="/project_details"> <i><BsArrowRight/></i></Link>
+                            {/* <Link to="/project_details"> <i><BsArrowRight/></i></Link> */}
                             </div>
                         </div>
                         <div className="work-item">
                             <img alt="" src={img4}  />
                             <div className="overlay-arae">
-                            <Link to="/project_details"> <i><BsArrowRight/></i></Link>
+                            {/* <Link to="/project_details"> <i><BsArrowRight/></i></Link> */}
                             </div>
                         </div>
                         <div className="work-item">
                             <img alt="" src={img2}  />
                             <div className="overlay-arae">
-                            <Link to="/project_details"> <i><BsArrowRight/></i></Link>
+                            {/* <Link to="/project_details"> <i><BsArrowRight/></i></Link> */}
                             </div>
                         </div>   
                         <div className="work-item">
                             <img alt="" src={img1}  />
                             <div className="overlay-arae">
-                            <Link to="/project_details"> <i><BsArrowRight/></i></Link>
+                            {/* <Link to="/project_details"> <i><BsArrowRight/></i></Link> */}
                             </div>
                         </div>
                         <div className="work-item">
                             <img alt="" src={img5}  />
                             <div className="overlay-arae">
-                            <Link to="/project_details"> <i><BsArrowRight/></i></Link>
+                            {/* <Link to="/project_details"> <i><BsArrowRight/></i></Link> */}
                             </div>
                         </div>      
                           

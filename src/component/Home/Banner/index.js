@@ -43,13 +43,13 @@ const Banner = () => {
                   <Link to="/Contact" className="btn btn-theme">
                     Get Started
                   </Link>
-                  <a
+                  {/* <a
                     href="#!"
                     className="banner-video video-link"
                     onClick={() => setOpen(true)}
                   >
                     <AiOutlinePlayCircle /> Watch Video
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
