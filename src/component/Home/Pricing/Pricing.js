@@ -21,9 +21,7 @@ const Pricing =({className = ''})=> {
                           <Nav.Item>
                              <Nav.Link className="tab-btn active-btn" eventKey="monthly">Monthly</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item>
-                           <Nav.Link className="tab-btn" eventKey="yearly">Yearly</Nav.Link>
-                             </Nav.Item>
+                        
                           </Nav>
                           </div>
                     </div>
@@ -57,7 +55,7 @@ const Pricing =({className = ''})=> {
                             </div>
                         </div>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="yearly">
+                      {/* <Tab.Pane eventKey="yearly">
                       <div>
                       <div className="row clearfix parent">
                                 {PricingData.map((data, index)=>(
@@ -84,7 +82,7 @@ const Pricing =({className = ''})=> {
                                 ))}
                             </div>
                         </div>
-                      </Tab.Pane>
+                      </Tab.Pane> */}
                     </Tab.Content>
                     </div>
                 </div>

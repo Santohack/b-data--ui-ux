@@ -1616,6 +1616,13 @@ section {
     margin-bottom: 30px;
     position: relative;
     z-index: 9999;
+    width: 106%;
+}
+.overlay-text{
+    position: relative;
+    color: #f7f9faf7;
+    top: 101px;
+    right: -25px;
 }
 
 .overlay-arae {
@@ -1624,15 +1631,16 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #5b6fe6ab;
-    opacity: 0;
+    background-color: #586ad8ab;
+   
+    opacity: 1;
     -webkit-transition: .4s all;
     -o-transition: .4s all;
     transition: .4s all;
 }
 
 .overlay-arae:hover {
-    opacity: 1;
+    background-color: #7785f5ab;
 }
 
 .overlay-arae a {
@@ -1713,7 +1721,7 @@ section {
 .pricing-section .tab-btn-box .tab-btns {
     position: relative;
     background: #f7faff;
-    max-width: 285px;
+    max-width: 159px;
     overflow: hidden;
     border-radius: 30px;
     text-align: center;
@@ -1725,7 +1733,7 @@ section {
 .pricing-section .tab-btn-box .tab-btns .nav-item {
     position: relative;
     float: left;
-    width: 50%;
+    width: 100%;
     background: transparent;
     border-radius: 30px;
     font-size: 17px;
